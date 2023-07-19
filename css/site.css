@@ -1,0 +1,129 @@
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.hero {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.hero-subheading {
+  font-size: 36px;
+  color: #828282;
+}
+
+.hero-heading {
+  font-weight: 700;
+  font-size: 96px;
+}
+
+main > .container {
+  margin-top: 10rem;
+}
+
+.subhead {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+footer {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+#sun {
+  position: absolute;
+  z-index: 1;
+}
+
+#moon {
+  position: absolute;
+  z-index: -1;
+}
+
+/*Animations*/
+
+.hidden {
+  opacity: 0;
+  transition: all 0.75s;
+}
+
+.show {
+  opacity: 1;
+}
+
+/*Project Page*/
+
+.project-heading {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.nav-item .active {
+  text-decoration: underline;
+}
+
+/*Code Page*/
+
+code[class*="language-"],
+pre[class*="language-"] {
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 992px) {
+  .hero-heading {
+    font-size: 60px;
+  }
+
+  .hero-subheading {
+    font-size: 24px;
+  }
+
+  .subhead {
+    font-size: 30px;
+  }
+
+  footer {
+    font-size: 22px;
+  }
+
+  /*project.html*/
+  .project-heading {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-heading {
+    font-size: 42px;
+  }
+
+  .hero-subheading {
+    font-size: 22px;
+  }
+
+  .subhead {
+    font-size: 24px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+
+  /*project.html*/
+  .project-heading {
+    font-size: 24px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
