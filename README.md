@@ -1,7 +1,8 @@
-# JS-SiteTemplate
-Site Template for JS Projects
+# JSJunction
+JSJunction is a website with a collection of various Javascript mini-projects.
 
-TODO:
-1. dark mode consistent across all pages
-2. dark mode icon animation
-3. change colors when customization available in bootstrap
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+## Project List
+1. **Hundo** - Description
+2. **Rewind** - Description
