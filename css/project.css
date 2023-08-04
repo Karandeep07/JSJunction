@@ -1,3 +1,11 @@
 section {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   }
+
+.odd{
+  font-weight: normal;
+}
+
+.even{
+  font-weight: bold;
+}
