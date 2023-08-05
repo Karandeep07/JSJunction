@@ -1,4 +1,4 @@
-<!-- BoldDigits OR Numero-->
+<!--Numero-->
 <!doctype html> <!--CODE-->
 <html lang="en" data-bs-theme="light">
 
@@ -98,6 +98,7 @@
                                     } else {
                                         className = "odd";
                                     }
+                                    //NOTE: prism.js doesn't render HTML tags correctly
                                     templateRows += `<tr><td class="${className}">${number}</td></tr>`;
                                 }
                                 document.getElementById("results").innerHTML = templateRows
