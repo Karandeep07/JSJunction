@@ -139,3 +139,13 @@ pre[class*="language-"] {
     pointer-events: none;
   }
 }
+
+.border-right {
+  border-right: 2px solid #dee2e6;
+}
+
+@media screen and (max-width: 992px){
+  .border-right {
+    border-right: 0px solid;;
+  }
+}
