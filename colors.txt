@@ -1,0 +1,24 @@
+Light Theme
+-------------------
+background: #FFF; --bs-body-bg
+heading,navbar - black; --bs-emphasis-color
+sub heading - #828282; hero-subheading
+mini heading - 21272a;
+footer - black;
+
+
+
+
+Dark Theme
+--------------------
+background: #1A181F;
+heading,navbar,mini heading,footer - #E5E7E0;
+sub heading - #828282;
+
+
+
+NOTE: 
+cards title - white
+card bg - will be image 
+
+Project page body text - white
